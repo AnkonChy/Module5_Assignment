@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    outline: none; 
+    
+    /* background:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg_pic1.jpg);
+    background-size: cover;
+    background-position: top; */
+
+}
+
+/* body{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bg_pic1.jpg);
+    background-size: cover;
+    background-position: top;
+} */
+
+.d1{
+    background: url(../images/bg_pic2.jpg);
+}
+
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 30px;
+    background: #eee;
+    padding: 10px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/bg_pic3.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+
+.form-container form{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow:0 5px 10px rgba(0,0,0,1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+    font-weight: bold;
+
+}
+
+.form-container form h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color:#333;
+}
+
+.form-container form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 7px 0;
+    background: #eee;
+    border-radius: 5px;
+
+}
+
+/* .form-container input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: black;
+    font-weight: bolder;
+} */
+
+.form-container form .form-btn{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    background: #f0c648;
+}
+
+.form-container form .form-btn:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: black;
+    font-weight: bolder;
+}
+
+.form-container form p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-container form p a{
+    color:crimson
+}
+ 
+
